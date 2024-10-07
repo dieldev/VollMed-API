@@ -6,29 +6,14 @@ A **Voll Med API** é uma aplicação backend desenvolvida em Java utilizando o 
 
 ## Funcionalidades
 
-### 1. Cadastro de Médicos
-- **Endpoint**: `POST /medicos`
-- **Descrição**: Permite cadastrar um novo médico no sistema.
-- **Validações**: O cadastro utiliza `@Valid` para garantir que os campos obrigatórios sejam preenchidos corretamente.
-- **Exemplo de Resposta**: Retorna o médico cadastrado junto com a URI do recurso criado.
-
-### 2. Listagem de Médicos com Paginação
-- **Endpoint**: `GET /medicos`
-- **Descrição**: Lista todos os médicos ativos no sistema.
-- **Paginação**: A listagem é paginada, retornando 10 resultados por página, ordenados pelo nome dos médicos.
-
-### 3. Cadastro de Pacientes
-- **Endpoint**: `POST /pacientes`
-- **Descrição**: Permite cadastrar novos pacientes no sistema.
-
-### 4. Manipulação de Dados de Médicos e Pacientes
+Manipulação de Dados de Médicos e Pacientes
 A API oferece métodos completos para a manipulação de médicos e pacientes, incluindo:
 - **GET**: Recuperar dados de médicos e pacientes.
 - **POST**: Cadastrar novos médicos e pacientes.
 - **PUT**: Atualizar informações de médicos e pacientes.
 - **DELETE**: Excluir registros de médicos e pacientes.
 
-### 5. Autenticação
+### Autenticação
 - **Descrição**: A API possui um mecanismo de autenticação básico para proteger os endpoints, garantindo que apenas usuários autorizados possam acessar as funcionalidades.
 
 ## Tecnologias Utilizadas
